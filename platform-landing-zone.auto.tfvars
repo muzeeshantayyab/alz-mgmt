@@ -47,7 +47,7 @@ custom_replacements = {
     primary_private_dns_auto_registration_zone_enabled    = true
     primary_private_dns_resolver_enabled                  = false
     primary_bastion_enabled                               = false
-    primary_sidecar_virtual_network_enabled               = false
+    primary_sidecar_virtual_network_enabled               = true
 
     # Resource group names
     management_resource_group_name               = "rg-management-$${starter_location_01}"
